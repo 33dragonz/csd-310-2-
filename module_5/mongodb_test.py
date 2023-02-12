@@ -6,8 +6,8 @@
 
 
 from pymongo import MongoClient
-
 url = "mongodb+srv://admin:admin@cluster0.wk2gxrs.mongodb.net/pytech"
+
 
 
 client = MongoClient(url)

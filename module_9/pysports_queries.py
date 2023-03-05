@@ -1,6 +1,4 @@
-
-""" 
-  pysports_join_queries.py
+"""pysports_join_queries.py
    natasha jeter
     3-4-2023
     Description: Test program for joining the player and team tables

@@ -1,8 +1,8 @@
 module_8/pysports_queries.py
 """ 
     Title: pysports_queries.py
-    Author: Professor Krasso
-    Date: 15 July 2020
+    natasha jeter
+    3-4-2023
     Description: Test program for executing queries against the pysports database. 
 """
 
@@ -12,7 +12,7 @@ from mysql.connector import errorcode
 
 """ database config object """
 config = {
-    "user": "happy2",
+    "user": "root",
     "password": "Elisea2025!",
     "host": "127.0.0.1",
     "database": "happy",

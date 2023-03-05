@@ -10,11 +10,11 @@ DROP USER IF EXISTS 'happy'@'localhost';
 
 
 
-CREATE USER 'happy'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Elisea2025!';
+CREATE USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Elisea2025!';
 
 show 'happy'
  
-GRANT ALL PRIVILEGES ON 'happy'.* TO'happy'@'localhost';
+GRANT ALL PRIVILEGES ON 'happy'.* TO'root'@'localhost';
 
 
 DROP TABLE IF EXISTS player;

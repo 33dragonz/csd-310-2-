@@ -6,14 +6,15 @@
 */
 
  
-DROP USER IF EXISTS 'pysports_user'@'localhost';
+DROP USER IF EXISTS 'happy'@'localhost';
 
 
 
-CREATE USER 'pysports_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MySQL8IsGreat!';
+CREATE USER 'happy'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Elisea2025!';
 
+show 'happy'
  
-GRANT ALL PRIVILEGES ON pysports.* TO'pysports_user'@'localhost';
+GRANT ALL PRIVILEGES ON 'happy'.* TO'happy'@'localhost';
 
 
 DROP TABLE IF EXISTS player;
@@ -63,7 +64,7 @@ INSERT INTO player(first_name, last_name, team_id)
     VALUES('Jasmine', 'Green', (SELECT team_id FROM team WHERE team_name = 'Team Hot Tea'));
 
 INSERT INTO player(first_name, last_name, team_id)
-    VALUES('Azog', 'The Defiler', (SELECT team_id FROM team WHERE team_name = 'Team Hot Tea'));
+    VALUES('sleepy', 'time', (SELECT team_id FROM team WHERE team_name = 'Team Hot Tea'));
 
 
 

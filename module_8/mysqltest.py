@@ -12,8 +12,8 @@ from mysql.connector import errorcode
 
 
 config = {
-    "user": "pysports_user",
-    "password": "MySQL8IsGreat!",
+    "user": "pysports",
+    "password": "Elisea2025!",
     "host": "127.0.0.1",
     "database": "pysports",
     "raise_on_warnings": True

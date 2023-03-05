@@ -15,7 +15,8 @@ config = {
     "user": "root",
     "password": "Elisea2025!",
     "host": "127.0.0.1",
-    "database": "happy",
+    "database": "happy
+    ",
     "raise_on_warnings": True
 }
 

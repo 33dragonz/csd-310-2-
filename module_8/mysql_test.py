@@ -1,8 +1,8 @@
 """ 
     Title: pysports_join_queries.py
-    natasha jeter
-   3-4-2020
-    Test program for joining the player and team tables
+    Author: natasha jeter
+    Date: 3-5-2023
+    Description: Test program for joining the player and team tables
 """
 
 """ import statements """

@@ -11,12 +11,12 @@ from mysql.connector import errorcode
 
 
 """ database config object """
-config = {
+config = 
+{
     "user": "root",
     "password": "Elisea2025!",
     "host": "127.0.0.1",
-    "database": "happy
-    ",
+    "database": "happy",
     "raise_on_warnings": True
 }
 
@@ -63,7 +63,7 @@ try:
     show_players(cursor, "DISPLAYING PLAYERS AFTER INSERT")
 
     # update the newly inserted record 
-    update_player = ("UPDATE player SET team_id = 2, first_name = 'Gollum', last_name = 'Ring Stealer' WHERE first_name = 'Smeagol'")
+    update_player = ("UPDATE player SET team_id = 2, first_name = 'joey', last_name = 'carbonara' WHERE first_name = 'Smeagol'")
 
     # execute the update query
     cursor.execute(update_player)
